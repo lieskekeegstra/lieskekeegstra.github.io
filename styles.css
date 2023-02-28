@@ -4,7 +4,6 @@ body {
 
     color: white;
    /*  overflow: hidden; */
-
 }
 
 
@@ -21,10 +20,10 @@ section {
     text-align: center;
     min-height: 100vh;
     position: relative;
-    
 }
 
 nav {
+
     width: 80%;
     margin-top: 0%;
     margin-left: -1.2%;
@@ -35,18 +34,16 @@ nav {
     text-align: center;
     position: fixed;
     float: right;
-    
-
 }
 
 
 img {
 
     width: 100% ;
-
 }
 
 .foreground {
+
     z-index: 10;
 }
 
@@ -67,20 +64,20 @@ p {
     width: 40%;
     text-align: left;
     font-size: 1.3vw;
-
 }
 
 .p-about {
+
     position: absolute;
     margin-top: -36%;
     margin-left: -40%;
     width: 40%;
     text-align: left;
     font-size: 1.3vw;
-
 }
 
 .about-text {
+
     position: absolute;
     z-index: 1;
 }
@@ -92,6 +89,7 @@ p {
 /* Instagram Nav */
 
 .otherplaces {
+
     position: absolute;
     width: 11%;
     margin-left: 71.5%;
@@ -370,7 +368,6 @@ p {
     cursor: pointer;
 }
 
-/* Illustration */
 
 .illustration-link {
 
@@ -442,6 +439,114 @@ p {
 
 }
 
+/* Index buttons */
+/* buttons colour hover */
+/* about colour */
+
+.about-button-colour {
+
+    position: absolute;
+    width: 100%;
+    opacity: 0%;
+    z-index: -10;
+    margin-left: 0%;
+    margin-top: 0.3%;
+}
+
+
+.about-link-head:hover~.about-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+.about-link-body:hover~.about-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+.about-link-butt:hover~.about-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+.about-link-upperleg:hover~.about-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+.about-link-lowerleg:hover~.about-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+.about-link-feet:hover~.about-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+/* illustration colour */
+
+.illustration-button-colour {
+
+    position: absolute;
+    width: 100%;
+    opacity: 0%;
+    z-index: -10;
+    margin-left: 0%;
+    margin-top: 0.3%;
+}
+
+.illustration-link:hover~.illustration-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+
+
+/* instagram colour */
+
+.instagram-button-colour {
+
+    position: absolute;
+    width: 22%;
+    opacity: 0%;
+    z-index: -10;
+    margin-left: 72%;
+    margin-top: -14.4%;
+    
+}
+
+.instagram-link:hover~.instagram-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+
+/* email colour */
+
+.email-button-colour {
+
+    position: absolute;
+    width: 21%;
+    opacity: 0%;
+    z-index: -10;
+    margin-left: 71.8%;
+    margin-top: -5.6%;
+}
+
+.email-link:hover~.email-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
 
 /* Nav styles About Page */
 
@@ -850,13 +955,13 @@ p {
 
 }
 
-/* turn your screen please */
+/* turn your screen please
 
 .turnscreen {
 
     position: absolute;
     opacity: 0%;
-}
+} */
 
 /* footer */
 
@@ -1001,6 +1106,7 @@ footer {
         width: 100%;
 
     }
+    
     
 }
 
