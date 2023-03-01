@@ -368,6 +368,7 @@ p {
     cursor: pointer;
 }
 
+/* illustration link */
 
 .illustration-link {
 
@@ -385,6 +386,38 @@ p {
 .illustration-box:hover {
 
     cursor: pointer;
+}
+
+/* scribbles Illustration link */
+
+.illustration-scribbles-link {
+
+    position: absolute;
+    width: 5.8%;
+    margin-left: -28%;
+    margin-top: 0.8%;
+}
+
+
+/* cross Illustration link */
+
+.illustration-cross-link {
+
+    position: absolute;
+    width: 4%;
+    margin-left: -37%;
+    margin-top: -6%;
+}
+
+
+.cross-drawing {
+
+    position: absolute;
+    width: 95%;
+    margin-left: -10%;
+    margin-top: -8%;
+    z-index: -10;
+
 }
 
 /* Animation */
@@ -408,36 +441,7 @@ p {
     cursor: pointer;
 }
 
-/* Cross */
 
-.cross-link {
-
-    position: absolute;
-    width: 4%;
-    margin-left: -37%;
-    margin-top: -6%;
-}
-
-.cross-box {
-
-    opacity: 0%;
-}
-
-
-.cross-box:hover {
-
-    cursor: pointer;
-}
-
-.cross-drawing {
-
-    position: absolute;
-    width: 95%;
-    margin-left: -10%;
-    margin-top: -8%;
-    z-index: -10;
-
-}
 
 /* Index buttons */
 /* buttons colour hover */
@@ -503,6 +507,18 @@ p {
 }
 
 .illustration-link:hover~.illustration-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+.illustration-scribbles-link:hover~.illustration-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+.illustration-cross-link:hover~.illustration-button-colour {
 
     opacity: 100%;
     transition: .5s ease;
