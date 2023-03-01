@@ -409,7 +409,6 @@ p {
     margin-top: -6%;
 }
 
-
 .cross-drawing {
 
     position: absolute;
@@ -441,7 +440,58 @@ p {
     cursor: pointer;
 }
 
+/* Projects */
 
+.projects-top-link {
+
+    position: absolute;
+    width: 19.2%;
+    margin-left: 22%;
+    margin-top: 16.5%;
+}
+
+.projects-bottom-link {
+
+    position: absolute;
+    width: 20.5%;
+    margin-left: 22%;
+    margin-top: 27%;
+}
+
+.projects-pizzaplant-link {
+
+    position: absolute;
+    width: 4.8%;
+    margin-left: 9.8%;
+    margin-top: 2%;
+}
+
+.projects-teapot-link {
+
+    position: absolute;
+    width: 6%;
+    margin-left: 21.5%;
+    margin-top: 7%;
+}
+
+.projects-pancakeplant-link {
+
+    position: absolute;
+    width: 5.5%;
+    margin-left: 34%;
+    margin-top: 4.6%;
+}
+
+.projects-box {
+
+    opacity: 0%;
+}
+
+
+.projects-box:hover {
+
+    cursor: pointer;
+}
 
 /* Index buttons */
 /* buttons colour hover */
@@ -456,7 +506,6 @@ p {
     margin-left: 0%;
     margin-top: 0.3%;
 }
-
 
 .about-link-head:hover~.about-button-colour {
 
