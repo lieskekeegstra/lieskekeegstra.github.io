@@ -52,7 +52,7 @@ img {
 
 p {
 
-    color: black;
+    color: rgb(121, 110, 87);
     font-family:'Poppins', sans-serif;
 }
 
@@ -80,6 +80,14 @@ p {
 
     position: absolute;
     z-index: 1;
+}
+
+.projects-text-general {
+
+    position: absolute;
+    z-index: 10;
+    margin-top: -20%;
+    
 }
 
 
