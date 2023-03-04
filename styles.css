@@ -429,12 +429,20 @@ p {
 
 /* Animation */
 
-.animation-link {
+.animation-top-link {
 
     position: absolute;
-    width: 8.5%;
-    margin-left: 57%;
-    margin-top: 25%;
+    width: 5.9%;
+    margin-left: 59.1%;
+    margin-top: 34%;
+}
+
+.animation-bottom-link {
+
+    position: absolute;
+    width: 7.5%;
+    margin-left: 55.1%;
+    margin-top: 38.2%;
 }
 
 .animation-box {
@@ -582,6 +590,72 @@ p {
 }
 
 
+/* Projects colour */
+
+.projects-button-colour {
+
+    position: absolute;
+    width: 100%;
+    opacity: 0%;
+    z-index: -10;
+    margin-left: 0%;
+    margin-top: 0.3%;
+}
+
+.projects-top-link:hover~.projects-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+.projects-bottom-link:hover~.projects-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+.projects-pizzaplant-link:hover~.projects-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+.projects-teapot-link:hover~.projects-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+.projects-pancakeplant-link:hover~.projects-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+
+/* Animation colour */
+
+.animation-button-colour {
+
+    position: absolute;
+    width: 100%;
+    opacity: 0%;
+    z-index: -10;
+    margin-left: 0%;
+    margin-top: 0.3%;
+}
+
+.animation-top-link:hover~.animation-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+.animation-bottom-link:hover~.animation-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
 
 /* instagram colour */
 
