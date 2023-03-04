@@ -54,6 +54,7 @@ p {
 
     color: rgb(121, 110, 87);
     font-family:'Poppins', sans-serif;
+    
 }
 
 .p-index {
@@ -69,11 +70,10 @@ p {
 .p-about {
 
     position: absolute;
-    margin-top: -36%;
-    margin-left: -40%;
-    width: 40%;
+    margin-top: 17%;
+    margin-left: -30%;
+    width: 30%;
     text-align: left;
-    font-size: 1.3vw;
 }
 
 .about-text {
@@ -1240,6 +1240,16 @@ footer {
         text-align: left;
         font-size: 2vw;
     
+    }
+
+    .p-about {
+
+        position: absolute;
+        margin-top: 60%;
+        margin-left: -30%;
+        width: 30%;
+        text-align: left;
+        font-size: 2vw;
     }
 
     nav {
