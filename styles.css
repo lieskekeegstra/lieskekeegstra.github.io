@@ -120,11 +120,21 @@ p {
 /* Other Places */
 /* Instagram Nav */
 
+
+/* .nav-example {
+
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    margin-left: -0.5%;
+    margin-top: -0.9%;
+}*/
+
 .otherplaces {
 
     position: absolute;
-    width: 11%;
-    margin-left: 71.5%;
+    width: 10.8%;
+    margin-left: 72%;
     margin-top: -24%;
 }
 
@@ -133,8 +143,27 @@ p {
 
     position: absolute;
     width: 3.3%;
-    margin-left: 71.8%;
-    margin-top: -14.7%;
+    margin-left: 72%;
+    margin-top: -15.2%;
+}
+
+.instagram-button-white {
+
+    position: absolute;
+    width: 2.9%;
+    margin-left: 72%;
+    margin-top: -15.45%;
+    z-index: -10;
+}
+
+.instagram-button-colour {
+
+    position: absolute;
+    width: 14.1%;
+    margin-left: 72.1%;
+    margin-top: -14%;
+    z-index: -5;
+    opacity: 0%;
 }
 
 .instagram {
@@ -147,6 +176,12 @@ p {
     cursor: pointer;
 }
 
+.instagram-link:hover~.instagram-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
 /* Email */
 
 .email-link {
@@ -154,7 +189,26 @@ p {
     position: absolute;
     width: 3.5%;
     margin-left: 71.9%;
-    margin-top: -5%;
+    margin-top: -6%;
+}
+
+.email-button-white {
+
+    position: absolute;
+    width: 3.2%;
+    margin-left: 71.9%;
+    margin-top: -6.2%;
+    z-index: -10;
+}
+
+.email-button-colour {
+
+    position: absolute;
+    width: 13.5%;
+    margin-left: 72.6%;
+    margin-top: -7.2%;
+    z-index: -5;
+    opacity: 0%;
 }
 
 .email {
@@ -167,14 +221,83 @@ p {
     cursor: pointer;
 }
 
+.email-link:hover~.email-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
+/* Home Nav */
+
+.home-nav-link {
+
+    position: absolute;
+    width: 4.8%;
+    margin-left: 72.2%;
+    margin-top: 2.6%;
+}
+
+.home-button-white {
+    
+    position: absolute;
+    width: 5%;
+    margin-left: 72.2%;
+    margin-top: 2.3%;
+    z-index: -10;
+}
+
+.home-button-colour {
+    
+    position: absolute;
+    width: 16.7%;
+    margin-left: 72.4%;
+    margin-top: 2.3%;
+    z-index: -5;
+    opacity: 0%;
+}
+
+.home {
+
+    opacity: 100%;
+}
+
+.home:hover {
+
+    cursor: pointer;
+}
+
+.home-nav-link:hover~.home-button-colour {
+
+    opacity: 100%;
+    transition: .5s ease;
+}
+
 /* About Nav */
 
 .about-nav-link {
 
     position: absolute;
-    width: 4.3%;
-    margin-left: 72.2%;
-    margin-top: 4%;
+    width: 4.75%;
+    margin-left: 72.4%;
+    margin-top: 10.5%;
+}
+
+.about-button-white {
+    
+    position: absolute;
+    width: 4.25%;
+    margin-left: 72.35%;
+    margin-top: 10.2%;
+    z-index: -10;
+}
+
+.about-button-colour {
+    
+    position: absolute;
+    width: 4.25%;
+    margin-left: 72.35%;
+    margin-top: 10.2%;
+    z-index: -5;
 }
 
 .about {
@@ -192,9 +315,27 @@ p {
 .illustration-nav-link {
 
     position: absolute;
-    width: 8%;
+    width: 7.7%;
     margin-left: 72.6%;
-    margin-top: 11.4%;
+    margin-top: 18.3%;
+}
+
+.illustration-button-white {
+    
+    position: absolute;
+    width: 7.5%;
+    margin-left: 72.6%;
+    margin-top: 18%;
+    z-index: -10;
+}
+
+.illustration-button-colour {
+    
+    position: absolute;
+    width: 7.5%;
+    margin-left: 72.6%;
+    margin-top: 18%;
+    z-index: -5;
 }
 
 .illustration {
@@ -214,23 +355,25 @@ p {
     position: absolute;
     width: 6.5%;
     margin-left: 72.5%;
-    margin-top: 18.2%;
+    margin-top: 25.3%;
 }
 
-.animation-nav-link2 {
-
+.animation-button-white {
+    
     position: absolute;
-    width: 6.5%;
-    margin-left: 72.5%;
-    margin-top: 11%;
+    width: 6.3%;
+    margin-left: 72.55%;
+    margin-top: 25%;
+    z-index: -10;
 }
 
-.animation-nav-link3 {
-
+.animation-button-colour {
+    
     position: absolute;
-    width: 6.5%;
-    margin-left: 72.5%;
-    margin-top: 3.7%;
+    width: 6.3%;
+    margin-left: 72.55%;
+    margin-top: 25%;
+    z-index: -5;
 }
 
 .animation {
@@ -243,46 +386,101 @@ p {
     cursor: pointer;
 }
 
+/* Projects Nav */
+
+.projects-nav-link {
+
+    position: absolute;
+    width: 6%;
+    margin-left: 72.6%;
+    margin-top: 33%;
+}
+
+.projects-button-white {
+    
+    position: absolute;
+    width: 5.9%;
+    margin-left: 72.6%;
+    margin-top: 32.75%;
+    z-index: -10;
+}
+
+.projects-button-white {
+    
+    position: absolute;
+    width: 5.9%;
+    margin-left: 72.6%;
+    margin-top: 32.75%;
+    z-index: -5;
+}
+
+.projects {
+
+    opacity: 100%;
+}
+
+.projects:hover {
+
+    cursor: pointer;
+}
+
+
 /* Other Places Lines */
 
 .line1 {
 
     position: absolute;
     width: 0.45%;
-    margin-left: 71.5%;
-    margin-top: -19.4%;
+    margin-left: 71.8%;
+    margin-top: -19.9%;
 }
 
 .line2 {
 
     position: absolute;
     width: 0.5%;
-    margin-left: 71.6%;
-    margin-top: -9.8%;
+    margin-left: 72%;
+    margin-top: -10.5%;
 }
 
 .line3 {
 
     position: absolute;
-    width: 0.23%;
-    margin-left: 71.6%;
-    margin-top: -0.9%;
+    width: 0.21%;
+    margin-left: 72.3%;
+    margin-top: -1.98%;
 }
 
 .line4 {
 
     position: absolute;
-    width: 0.18%;
-    margin-left: 72%;
-    margin-top: 7.2%;
+    width: 0.19%;
+    margin-left: 72.3%;
+    margin-top: 6.4%;
 }
 
 .line5 {
 
     position: absolute;
+    width: 0.22%;
+    margin-left: 72.3%;
+    margin-top: 14.3%;
+}
+
+.line6 {
+
+    position: absolute;
     width: 0.2%;
-    margin-left: 72%;
-    margin-top: 14.5%;
+    margin-left: 72.2%;
+    margin-top: 21.5%;
+}
+
+.line7 {
+
+    position: absolute;
+    width: 0.25%;
+    margin-left: 72.8%;
+    margin-top: 28.3%;
 }
 
 /* Cross Page */
@@ -681,7 +879,7 @@ p {
     transition: .5s ease;
 }
 
-/* instagram colour */
+/* instagram colour 
 
 .instagram-button-colour {
 
@@ -698,10 +896,10 @@ p {
 
     opacity: 100%;
     transition: .5s ease;
-}
+} */
 
 
-/* email colour */
+/* email colour 
 
 .email-button-colour {
 
@@ -717,7 +915,7 @@ p {
 
     opacity: 100%;
     transition: .5s ease;
-}
+} */
 
 /* Nav styles About Page */
 
