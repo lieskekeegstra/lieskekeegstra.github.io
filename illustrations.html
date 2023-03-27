@@ -12,31 +12,40 @@
 
     <section>
 
+        <div class="full-img" id="fullImgBox" onclick="closeFullImg()">
+
+            <!-- Illustrations full -->
+
+            <img src="https://cdna.artstation.com/p/assets/images/images/061/050/312/large/lieske-keegstra-1-febe-on-the-beach.jpg?1679920827" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+
+            
+        </div>
+
         <div class="illustration-contents">
 
             <!-- Background -->
 
             <img src= "images/illustrations/background-brushes-illustration.png" alt= "Illustrations" class="background-illustration">
 
-            <!-- Illustrations links -->
 
             <!-- Illustrations thumbnails -->
 
-            <img src="https://cdna.artstation.com/p/assets/images/images/061/050/312/large/lieske-keegstra-1-febe-on-the-beach.jpg?1679920827" alt="febe-and-penguin" class="thumbnail-illustration1">
+            <img src="https://cdna.artstation.com/p/assets/images/images/061/050/312/large/lieske-keegstra-1-febe-on-the-beach.jpg?1679920827" alt="febe-and-penguin" class="thumbnail-illustration1" onclick="openFullImg(this.src)">
 
-            <img src="https://cdnb.artstation.com/p/assets/images/images/061/050/315/large/lieske-keegstra-1de-febe-tekeningen-008.jpg?1679920833" alt="febe-and-family" class="thumbnail-illustration2">
+            <img src="https://cdnb.artstation.com/p/assets/images/images/061/050/315/large/lieske-keegstra-1de-febe-tekeningen-008.jpg?1679920833" alt="febe-and-family" class="thumbnail-illustration2" onclick="openFullImg(this.src)">
 
-            <img src="https://cdna.artstation.com/p/assets/images/images/061/054/242/large/lieske-keegstra-flamingo-and-febe.jpg?1679925771" alt="febe-and-flamingo" class="thumbnail-illustration3">
+            <img src="https://cdna.artstation.com/p/assets/images/images/061/054/242/large/lieske-keegstra-flamingo-and-febe.jpg?1679925771" alt="febe-and-flamingo" class="thumbnail-illustration3" onclick="openFullImg(this.src)">
 
-            <img src="https://cdna.artstation.com/p/assets/images/images/061/050/330/large/lieske-keegstra-5-pingo-drawings.jpg?1679920851" alt="penguins" class="thumbnail-illustration4">
+            <img src="https://cdna.artstation.com/p/assets/images/images/061/050/330/large/lieske-keegstra-5-pingo-drawings.jpg?1679920851" alt="penguins" class="thumbnail-illustration4" onclick="openFullImg(this.src)">
 
-            <img src="https://cdnb.artstation.com/p/assets/images/images/061/057/401/large/lieske-keegstra-febereads2.jpg?1679929441" alt="febe-reads" class="thumbnail-illustration5">
+            <img src="https://cdnb.artstation.com/p/assets/images/images/061/057/401/large/lieske-keegstra-febereads2.jpg?1679929441" alt="febe-reads" class="thumbnail-illustration5" onclick="openFullImg(this.src)">
 
-            <img src="https://cdnb.artstation.com/p/assets/images/images/061/054/251/large/lieske-keegstra-dubliners.jpg?1679925782" alt="dubliners" class="thumbnail-illustration6">
+            <img src="https://cdnb.artstation.com/p/assets/images/images/061/054/251/large/lieske-keegstra-dubliners.jpg?1679925782" alt="dubliners" class="thumbnail-illustration6" onclick="openFullImg(this.src)">
 
-            <img src="https://cdna.artstation.com/p/assets/images/images/061/054/256/large/lieske-keegstra-test.jpg?1679925786" alt="woodworker" class="thumbnail-illustration7">
+            <img src="https://cdna.artstation.com/p/assets/images/images/061/054/256/large/lieske-keegstra-test.jpg?1679925786" alt="woodworker" class="thumbnail-illustration7" onclick="openFullImg(this.src)">
 
-            <img src="https://cdnb.artstation.com/p/assets/images/images/061/050/331/large/lieske-keegstra-5-turtle.jpg?1679920856" alt="turtle" class="thumbnail-illustration8">
+            <img src="https://cdnb.artstation.com/p/assets/images/images/061/050/331/large/lieske-keegstra-5-turtle.jpg?1679920856" alt="turtle" class="thumbnail-illustration8" onclick="openFullImg(this.src)">
 
             
         </div>
@@ -163,7 +172,22 @@
           
     </section>
 
+<script>
 
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+    }
+    
+    function closeFullImg(){
+        fullImgBox.style.display = "none";
+
+    }
+
+</script>
 </body>
 
 </html>
