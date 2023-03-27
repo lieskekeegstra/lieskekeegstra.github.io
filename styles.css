@@ -26,7 +26,7 @@ nav {
 
     width: 80%;
     margin-top: 0%;
-    margin-left: -1.2%;
+    margin-left: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,7 +53,7 @@ img {
 
 p {
 
-    color: rgb(121, 110, 87);
+    color: rgb(100, 100, 100);
     font-family:'Poppins', sans-serif;
     font-style: normal;
     
@@ -95,19 +95,7 @@ p {
 
 /* Backgrounds */
 
-.background-illustration {
 
-    position: absolute;
-    z-index: -20;
-    margin-left: -7%;
-}
-
-.background-animation {
-
-    position: absolute;
-    z-index: -20;
-    margin-left: -3%;
-}
 
 .background-about {
 
@@ -1033,27 +1021,104 @@ p {
 /* Artworks */
 /* Illustration Artworks */
 
-.image-illustration1 {
 
+.background-illustration {
+
+    width: 25%;
     position: absolute;
-    width: 70%;
-    margin-left: -13%;
-    margin-top: -8%;
-    opacity: 100%;
-
+    z-index: -7;
+    margin-left: -47%;
+    margin-top: -25%;
+    z-index: -5;
 }
 
+/* Febe and penguin on beach */
 .thumbnail-illustration1 {
 
     position: absolute;
-    width: 13.6%;
-    margin-left: -6%;
-    margin-top: -35.8%;
+    width: 50%;
+    margin-left: -24%;
+    margin-top: -20%;
     opacity: 100%;
-    z-index: -1;
-
+    z-index: 0;
 }
 
+/* Febe and family at the zoo */
+.thumbnail-illustration2 {
+
+    position: absolute;
+    width: 50%;
+    margin-left: -40%;
+    margin-top: 17%;
+    opacity: 100%;
+    z-index: 0;
+}
+
+/* Febe and flamingo */
+.thumbnail-illustration3 {
+
+    position: absolute;
+    width: 27%;
+    margin-left: 11.7%;
+    margin-top: 17%;
+    opacity: 100%;
+    z-index: 0;
+}
+
+/* penguins */
+.thumbnail-illustration4 {
+
+    position: absolute;
+    width: 60%;
+    margin-left: -12%;
+    margin-top: 50.5%;
+    opacity: 100%;
+    z-index: -5;
+}
+
+/* febe reads to penguin */
+.thumbnail-illustration5 {
+
+    position: absolute;
+    width: 33%;
+    margin-left: -40%;
+    margin-top: 54.1%;
+    opacity: 100%;
+    z-index: 0;
+}
+
+/* dubliners */
+.thumbnail-illustration6 {
+
+    position: absolute;
+    width: 50%;
+    margin-left: -42%;
+    margin-top: 90%;
+    opacity: 100%;
+    z-index: 0;
+}
+
+/* the woodworker */
+.thumbnail-illustration7 {
+
+    position: absolute;
+    width: 31%;
+    margin-left: 8%;
+    margin-top: 90%;
+    opacity: 100%;
+    z-index: 0;
+}
+
+/* turtle */
+.thumbnail-illustration8 {
+
+    position: absolute;
+    width: 80%;
+    margin-left: -41%;
+    margin-top: 137.5%;
+    opacity: 100%;
+    z-index: 0;
+}
 
 
 
@@ -1074,22 +1139,62 @@ p {
 /* Artworks */
 /* Animation Artworks */
 
+/*all the animations are in .animations */
+
+.animations {
+
+    margin-top: -18%;
+    margin-left: -5%;  
+}
+
+
+.background-animation {
+
+    width: 42%;
+    position: absolute;
+    margin-left: -45%;
+    margin-top: -18%;
+    z-index: -5; 
+}
+
+.background-animation-top {
+
+    width: 22.5%;
+    position: absolute;
+    margin-left: -27.1%;
+    margin-top: -16.45%;
+    z-index: 5;
+    opacity: 100%;
+    
+}
+
+.background-animation-bottom {
+
+    width: 19%;
+    position: absolute;
+    margin-left: -40%;
+    margin-top: 20.95%;
+    z-index: 5;
+    opacity: 100%;
+    
+}
+
 .spacing-container1 {
 
-    width: 55%;
+    width: 53%;
     position: absolute;
-    margin-left: 10%;
-    margin-top: -5.5%;
+    margin-left: -22%;
+    margin-top: 0%;
     z-index: 0;
-
+ 
 }
 
 .spacing-container2 {
 
     width: 45%;
     position: absolute;
-    margin-left: 45%;
-    margin-top: 59.55%;
+    margin-left: -0.3%;
+    margin-top: 31.5%;
     z-index: 0;
 
 }
@@ -1098,8 +1203,8 @@ p {
 
     width: 45%;
     position: absolute;
-    margin-left: 45%;
-    margin-top: 113.7%;
+    margin-left: -0.3%;
+    margin-top: 58.7%;
     z-index: 0;
 
 }
@@ -1136,7 +1241,7 @@ p {
     position: absolute;
     width: 39%;
     margin-left: -40%;
-    margin-top: 115%;
+    margin-top: 29.9%;
     opacity: 100%;
     z-index: -1;
 
@@ -1232,8 +1337,19 @@ footer {
     position: absolute;
     width: 30%;
     margin-left: 20%;
-    margin-top: 164%;
+    margin-top: 163%;
     z-index: 30;
+    padding-bottom: 70px;
+}
+
+.footer-position-illustration {
+
+    position: absolute;
+    width: 30%;
+    margin-left: 20%;
+    margin-top: 401%;
+    z-index: 30;
+    padding-bottom: 70px;
 }
 
 .footer-position-about {
@@ -1393,6 +1509,14 @@ footer {
     nav {
         width: 100%;
 
+    }
+    
+
+    .animations {
+
+        margin-top: -18%;
+        margin-left: -5%;
+        
     }
     
     
