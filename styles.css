@@ -89,20 +89,14 @@ p {
 
     position: absolute;
     z-index: 10;
-    margin-top: -20%;
+    margin-top: -40%;
+    margin-left: 35%;
+    font-size: 3vw;
+
     
 }
 
-/* Backgrounds */
 
-
-
-.background-about {
-
-   position: relative;
-   z-index: 0;
-   margin-top: 0%;
-}
 
 /* Text Nav */
 /* Other Places */
@@ -992,15 +986,35 @@ p {
     cursor: pointer;
 }
 
+/* about */
 /* Photos About */
 
+.background-about {
+
+    position: absolute;
+    margin-top: -35.4%;
+    margin-left: -50%;
+    z-index: -10;
+}
 
 .photo-lieske-profile {
 
     position: absolute;
     width: 23%;
-    margin-top: -40%;
-    margin-left: 6%;
+    margin-top: -4.7%;
+    margin-left: 10%;
+}
+ 
+/* Text About */
+
+.p-about {
+
+    position: absolute;
+    margin-top: -4.7%;
+    margin-left: -30%;
+    width: 35%;
+    text-align: left;
+    font-size: 1.3vw;
 }
 
 /* Artworks */
@@ -1352,14 +1366,27 @@ footer {
     padding-bottom: 70px;
 }
 
+
 .footer-position-about {
 
-    position: relative;
+    position: absolute;
     width: 30%;
     margin-left: 20%;
-    margin-top: -8%;
+    margin-top: 62%;
     z-index: 30;
+    padding-bottom: 70px;
 }
+
+.footer-position-projects {
+
+    position: absolute;
+    width: 30%;
+    margin-left: 20%;
+    margin-top: 52%;
+    z-index: 30;
+    padding-bottom: 70px;
+}
+
 
 .artsgeek-footer {
 
@@ -1480,31 +1507,6 @@ footer {
     
     }
 
-    .p-about {
-
-        position: absolute;
-        margin-top: -40%;
-        margin-left: -27%;
-        width: 29%;
-        text-align: left;
-        font-size: 2vw;
-    }
-
-    .photo-lieske-profile {
-
-        position: absolute;
-        margin-top: -40%;
-        margin-left: 6%;
-    }
-
-    .footer-position-about {
-
-        position: relative;
-        width: 30%;
-        margin-left: 20%;
-        margin-top: 33%;
-        z-index: 30;
-    }
 
     nav {
         width: 100%;
